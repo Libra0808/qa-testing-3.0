@@ -1,0 +1,3 @@
+document.getElementById("win1open").addEventListener("click",function(){window.open("https://www.google.co.in/", "", "width=400px,height=500px,left=400px,top=200px");});
+document.getElementById("win2open").addEventListener("click",function(){var myWindow = window.open("", "MsgWindow", "width=400px,height=500px,left=400px,top=200px");
+myWindow.document.write("<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, facilis deserunt? Fuga dolores amet non alias necessitatibus ipsam eaque blanditiis!</p>");});
