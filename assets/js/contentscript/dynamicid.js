@@ -14,8 +14,8 @@
 //    document.getElementsByClassName("sec-dynamic-id-btn-out")[0].innerText = secidvalue;
 // }, 5000);
 
- // change id on load
-
+ // change id on load ...remarks not working as per expectation that why comment it.
+ /*
  let id_content = document.getElementById("dynamicid");
 
  id_content.onmessage  = function () {
@@ -41,6 +41,7 @@
        document.getElementsByClassName("sec-dynamic-id-btn-out")[0].innerText = secidvalue;
     }
  }
+ */
 
  // change id on click;
 
